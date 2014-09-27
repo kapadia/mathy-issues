@@ -1,4 +1,4 @@
 mathy-issues
 ============
 
-experimenting with math in gh issues
+Chrome Extension for rendering LaTex within GitHub issues.
