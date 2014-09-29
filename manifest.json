@@ -6,13 +6,10 @@
     "activeTab",
     "https://github.com/"
   ],
-  "content_scripts": [
-    {
-      "matches": ["https://github.com/*/*/issues/*"],
-      "css": ["katex/katex.min.css"],
-      "js": ["katex/katex.min.js", "content_script.js"]
-    }
-  ],
+  "background": {
+    "scripts": ["katex/katex.min.js", "background.js"],
+    "persistent": false
+  },
   "web_accessible_resources": [
     "katex/fonts/*"
   ],
