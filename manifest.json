@@ -1,7 +1,7 @@
 {
-  "name": "Math for GitHub",
-  "description": "Render LaTex in GitHub Issues",
-  "version": "0.0.2",
+  "name": "LaTeX for GitHub",
+  "description": "Write LaTeX in GitHub Issues",
+  "version": "0.0.3",
   "permissions": [
     "activeTab",
     "https://github.com/"
@@ -14,7 +14,7 @@
     "katex/fonts/*"
   ],
   "browser_action": {
-    "default_title": "Math for GitHub"
+    "default_title": "LaTeX for GitHub"
   },
   "content_security_policy": "font-src 'self'; script-src 'self'; object-src 'self'",
   "manifest_version": 2

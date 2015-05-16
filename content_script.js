@@ -1,12 +1,13 @@
 
 (function() {
   
-  var elems = document.querySelectorAll("div.comment-body p[label='tex']");
+  var elems = document.querySelectorAll('div.highlight.highlight-tex');
   
   for (var i = 0; i < elems.length; i += 1) {
     var el = elems[i];
-    console.log(el);
-    katex.render(el.textContent, el);
+    var body = el.textContent;
+    
+    katex.render(body, el);
   }
   
 })();
